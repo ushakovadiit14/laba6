@@ -3,12 +3,12 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
+
 /**
- * Аннотация с двумя свойствами разных типов.
+ * Аннотация для методов, которые должны вызываться через рефлексию.
  */
-@Target(ElementType.TYPE)
+@Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Two {
-    String first();
-    int second();
+public @interface Invoke {
+
 }
