@@ -107,8 +107,7 @@ user = "username" - поле без аннотации, по умолчанию 
 Учет аннотаций как на уровне класса, так и на уровне полей
 
 Тестирование работы:
-<img width="603" height="103" alt="Снимок экрана 2025-12-08 в 02 22 04" src="https://github.com/user-attachments/assets/c91dc639-e037-415d-b564-7996eeee6e32" />
-
+<img width="563" height="108" alt="Снимок экрана 2025-12-08 в 09 57 40" src="https://github.com/user-attachments/assets/5f64b15f-56cb-41d1-b99f-0b8d2e3fee89" />
 1.4 @Validate
 
 1. Объявление аннотации @Validate:
